@@ -28,6 +28,7 @@ body {
     text-align: right;
     left:auto;
     right: 5%;
+    font-size: 100%;
 }
 .conoce{
      text-align: center;
@@ -44,3 +45,35 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+#lugar{
+    padding-top: 20px;
+}
+#totalPago {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .btn-personal{
+    background-color: rgba(150, 201, 62);
+  }
+  .btn-personal:hover{
+    background-color: rgba(130, 181, 42);
+  }
+  .nverde{
+    background-color:rgba(41, 167, 68) ;
+}
+  #main-footer {
+    background: #1d3c4e;
+    color: #fff;
+    padding: 1.5rem;
+  }
+  
+  #main-footer .nav-link {
+    color: #fff;
+    text-align: center;
+  }
+  #main-footer .nav-link:hover { opacity: .7; }
+  
+  @media (min-width: 992px) {
+    #main-footer .nav-link span { display: block; }
+  }
