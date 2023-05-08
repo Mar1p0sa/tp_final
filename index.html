@@ -28,13 +28,13 @@
                 <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ancla-oradores">Los oradores</a>
+                <a class="nav-link" href="#oradores">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ancla-ubicacion">El lugar y la fecha</a>
+                <a class="nav-link" href="#lugar">El lugar y la fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#ancla-form-orador">Conviértete en orador</a>
+                <a class="nav-link" href="#form-orador">Conviértete en orador</a>
               </li>
                 <li class="nav-item">
                   <a class="nav-link  " id="nav-link-verde" href="#">Comprar tickets</a>
@@ -103,89 +103,82 @@
           <span class="visually-hidden">Next</span>
         </button>
    </section>
-        <div class="conoce">
-        <h6>CONOCE A LOS</h6> 
-          <a id="ancla-oradores"><h2><b>ORADORES</b></h2></a>
-        </div>
-                                                   <!--SECCION ORADORES-->
+       
+                                                      <!--SECCION ORADORES-->
 
-        <div class="conte">
-          <div class="row">
-          <div class="col-sm-10 col-md-4 col-lg-2 col-xl-2">
-            <div class="card">
-              <img src="./elementos/steve.jpg" class="card-img img-fluid" alt="...">
-              <div class="card-body">
-                <button type="button" class="btn btn-warning"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                 <b>JavaScript</b></button>
-                <button type="button" class="btn btn-info"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                 <b>React</b></button>
-                <h5 class="card-title"><b>Steve Jobs</b></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus quam, quidem exercitationem cupiditate architecto quia est odit delectus,
-                  neque aperiam molestias modi eaque magnam suscipit voluptatum maiores ex eum cumque.</p> 
+ <section class="container mb-4" id="oradores">
+  <div class="conoce">
+  <h6 class="titulo-gral">CONOCE A LOS </h6>
+    <a><h2><b>ORADORES</b></h2></a>
+  </div>
+  <div class="row justify-content-center">
+      <div class="col-md-11">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./elementos/steve.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div class="mb-2">
+                              <span class="badge bg-warning text-dark">Javascript</span>
+                              <span class="badge bg-info">React</span>
+                          </div>
+                          <h5 class="card-title">Steve Jobs</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et aspernatur, sit dolorem officiis dolor, nobis sed labore non culpa dignissimos amet excepturi odit quis quos temporibus ut asperiores possimus. Veniam!</p>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-10 col-md-4 col-lg-2 col-xl-2"style="padding-top: 10px;" >
-            <div class="card">
-              <img src="./elementos/bill.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <button type="button" class="btn btn-warning"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                 <b>JavaScript</b></button>
-                 <button type="button" class="btn btn-info"
-                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                  <b>React</b></button>
-                <h5 class="card-title"><b>Bill Gates</b></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus quam, quidem exercitationem cupiditate architecto quia est odit delectus,
-                  neque aperiam molestias modi eaque magnam suscipit voluptatum maiores ex eum cumque.</p>
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./elementos/bill.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div class="mb-2">
+                              <span class="badge bg-warning text-dark">Javascript</span>
+                              <span class="badge bg-info">React</span>
+                          </div>
+                          <h5 class="card-title">Bill Gates</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, nostrum saepe et quaerat illo possimus provident laboriosam totam sunt magni recusandae eligendi optio earum quas ab omnis fuga molestiae corrupti.</p>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
-          <div class="col-sm-10 col-md-4 col-lg-2 col-xl-2" style="padding-top: 10px;">
-            <div class="card">
-              <img src="./elementos/ada.jpeg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <button type="button" class="btn btn-secondary"
-                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                 <b>Niegocios</b></button>
-                 <button type="button" class="btn btn-danger"
-                 style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-                  <b>Startups</b></button>
-                <h5 class="card-title"><b>Ada Lovelace</b></h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Accusamus quam, quidem exercitationem cupiditate architecto quia est odit delectus,
-                  neque aperiam molestias modi eaque magnam suscipit voluptatum maiores ex eum cumque.</p>
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="./elementos/ada.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                          <div class="mb-2">
+                              <span class="badge bg-secondary">Negocios</span>
+                              <span class="badge bg-danger">Startups</span>
+                          </div>
+                          <h5 class="card-title">Ada Lovelace</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, veniam eius excepturi sapiente eligendi quaerat soluta nihil iste vero sequi cum nam quibusdam quam voluptas consequuntur natus! Optio, perspiciatis velit.</p>
+                      </div>
+                  </div>
               </div>
-            </div>
           </div>
+      </div>
+  </div>
+
+</section>
+                                                 <!--SECCION UBICACION-->
+  <section class="mb-4" id="lugar">
+    <div class="row g-0">
+        <div class="col-md border-light">
+            <img src="./elementos/honolulu.jpg" alt="Honolulu" class="img-fluid">
         </div>
-       </div>
-                                      <!--SECCION UBICACION-->
-       <a id="ancla-ubicacion"></a>
-      <section class="mb-4"  id="lugar">
-        <div class="row g-0">
-            <div class="col-md">
-                <img src="./elementos/honolulu.jpg" alt="Honolulu" class="img-fluid">
-             </div>
-            <div class="col-md text-light h-100 bg-aside1" style="background-color: #3f4244;">
-                <h2>Bs As - Octubre</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat molestias vitae unde facere voluptatem minus voluptates commodi corrupti tenetur! Pariatur qui enim animi sapiente sed error similique molestiae ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, excepturi deleniti harum facilis id, a illo assumenda officiis illum praesentium eos. Qui laborum ratione in hic ducimus debitis voluptatum aperiam.</p>
-                <a class="btn btn-outline-light" href="#">Conocé más</a>
-             </div>
+        <div class="col-md text-light" id="gris">
+            <h2>Bs As - Octubre</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat molestias vitae unde facere voluptatem minus voluptates commodi corrupti tenetur! Pariatur qui enim animi sapiente sed error similique molestiae ipsum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, excepturi deleniti harum facilis id, a illo assumenda officiis illum praesentium eos. Qui laborum ratione in hic ducimus debitis voluptatum aperiam.</p>
+            <a class="btn btn-outline-light" href="#">Conocé más</a>
         </div>
-    </section>
-                                     <!--SECCION FORMULARIO-->
+    </div>
+</section>       
+                                                <!--SECCION FORMULARIO-->
 
     <section class="container" id="form-orador">
     <div class="row justify-content-center">
         <div class="col-lg-8 col-xl-7">
             <div class="conoce">
               <h6>CONVIERTETE EN UN</h6> 
-                <a id="ancla-form-orador"><h2><b>ORADOR</b></h2></a>
+                <a id="orador"><h2><b>ORADOR</b></h2></a>
               </div>
             <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
             <form action="">

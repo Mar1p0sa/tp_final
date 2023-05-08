@@ -49,6 +49,13 @@ body {
 #lugar{
     padding-top: 20px;
 }
+#gris{
+  background-color: rgb(53, 58, 64);
+  padding-bottom: 394px;
+  padding-top: 15px;
+  padding-left: 5px;
+}
+
 #totalPago {
     font-size: 1.4rem;
     font-weight: 700;
@@ -77,3 +84,4 @@ body {
   @media (min-width: 992px) {
     #main-footer .nav-link span { display: block; }
   }
+  
